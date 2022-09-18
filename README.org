@@ -21,6 +21,8 @@ assignment. Here is the assignment in a nutshell:
    delete button next to it (hint: be sure to check if new items are
    clickable too!)
 
+As one can see in the *Languages* bar on the right, it's pure HTML, CSS,
+and JavaScript. 😀
 ** __MACOSX
 In the project's assignment bundle, there appears to have been
 included a folder specifically for Mac users. That's been kept here,
