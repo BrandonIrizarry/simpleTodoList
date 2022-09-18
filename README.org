@@ -1,0 +1,29 @@
+* Simple Todo List App
+** Introduction
+This website is from Lecture 142 of The Complete Web Developer in
+2022: Zero to Mastery (see the [[https://zerotomastery.io][Zero To Mastery]] main page).
+
+The page is viewable [[https://brandonirizarry.github.io/simpleTodoList/][here]]; however, it's also prominently listed under
+this project page's *About* section, for convenience and clarity.
+
+** Synopsis
+The webpage is a straightforward embellishment of a todo-list app
+described in the ZTM lectures. It is, in fact, a course
+assignment. Here is the assignment in a nutshell:
+
+1. If you click on the list item, it toggles the .done class on and
+   off.
+
+2. Add buttons next to each list item to delete the item when clicked
+   on its corresponding delete button.
+
+3. BONUS: When adding a new list item, it automatically adds the
+   delete button next to it (hint: be sure to check if new items are
+   clickable too!)
+
+** __MACOSX
+In the project's assignment bundle, there appears to have been
+included a folder specifically for Mac users. That's been kept here,
+in case Mac users would need it to clone and view this page locally on
+their machines.
+
