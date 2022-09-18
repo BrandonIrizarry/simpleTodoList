@@ -1,6 +1,6 @@
-var button = document.getElementById("enter");
-var input = document.getElementById("userinput");
-var ul = document.querySelector("ul");
+const button = document.getElementById("enter");
+const input = document.getElementById("userinput");
+const ul = document.querySelector("ul");
 
 
 // Add strikethrough facility to all existing li elements
@@ -12,7 +12,7 @@ const deleteButtons = Array.from(document.querySelectorAll(".delete"));
 deleteButtons.forEach(dbutton => dbutton.addEventListener("click", e => e.target.parentNode.remove()));
 
 function createListElement() {
-    var li = document.createElement("li");
+    const li = document.createElement("li");
     li.addEventListener("click", () => { li.classList.toggle("done"); });
     li.appendChild(document.createTextNode(input.value));
 
