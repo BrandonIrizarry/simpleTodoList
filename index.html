@@ -6,35 +6,39 @@
 </head>
 <body>
     <h1 id="title">Simple Todo List</h1>
-    <div id="all">
-	<p id="first">Get it done today</p>
-	<div class="entry">
-	    <input id="userinput" type="text" placeholder="....">
-	    <button id="enter">Enter</button>
+    <p id="first">Get it done today</p>
+
+    <div class="grid">
+	<input id="userinput" type="text" placeholder="....">
+	<button id="enter">Enter</button>
+    </div>
+    
+    <ul>
+	<div class="grid">
+	    <li>Avocado</li>
+	    <button class="delete">Delete</button>
 	</div>
-	<ul>
-	    <div class="entry">
-		<li>Avocado</li>
-		<button class="delete">Delete</button>
-	    </div>
-	    
-	    <div class="entry">
-		<li>Jello</li>
-		<button class="delete">Delete</button>
-	    </div>
-	    <div class="entry">
-		<li>Spinach</li><button class="delete">Delete</button>
-	    </div>
-	    <div class="entry">
-		<li>Rice</li><button class="delete">Delete</button>
-	    </div>
-	    <div class="entry">
-		<li>Birthday Cake</li><button class="delete">Delete</button>
-	    </div>
-	    <div class="entry">
-		<li>Candles</li><button class="delete">Delete</button>
-	    </div>
-	</ul>
-	<script type="text/javascript" src="script.js"></script>
-    </div></body>
+	<div class="grid">
+	    <li>Jello</li>
+	    <button class="delete">Delete</button>
+	</div>
+	<div class="grid">	
+	    <li>Spinach</li>
+	    <button class="delete">Delete</button>
+	</div>
+	<div class="grid">
+	    <li>Rice</li>
+	    <button class="delete">Delete</button>
+	</div>
+	<div class="grid">
+	    <li>Birthday Cake</li>
+	    <button class="delete">Delete</button>
+	</div>
+	<div class="grid">
+	    <li>Candles</li>
+	    <button class="delete">Delete</button>
+	</div>
+    </ul>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 </html>

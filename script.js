@@ -12,22 +12,24 @@ const deleteButtons = Array.from(document.querySelectorAll(".delete"));
 deleteButtons.forEach(dbutton => dbutton.addEventListener("click", e => e.target.parentNode.remove()));
 
 function createListElement() {
+    // Make the list element
     const li = document.createElement("li");
     li.addEventListener("click", () => { li.classList.toggle("done"); });
     li.appendChild(document.createTextNode(input.value));
 
-    const div = document.createElement("div");
-    div.classList.add("entry");
-    div.appendChild(li);
-
+    // Make the delete-button
     const deleteButton = document.createElement("button");
     deleteButton.classList.add("delete"); // for consistency with existing delete-buttons
     deleteButton.appendChild(document.createTextNode("Delete"));
     deleteButton.addEventListener("click", e =>	e.target.parentNode.remove()); // remove parent div
-    
-    div.appendChild(deleteButton);
-    
-    ul.appendChild(div);
+
+    // Make the container div for the list element and delete-button
+    const containerDiv = document.createElement("div");
+    containerDiv.classList.add("grid");
+   
+    containerDiv.appendChild(li);
+    containerDiv.appendChild(deleteButton);
+    ul.appendChild(containerDiv);
     
     input.value = "";
 }
